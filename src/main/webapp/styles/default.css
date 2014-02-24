@@ -1,0 +1,125 @@
+body {
+	font-family: Verdana;
+}
+
+/* table,th,td { */
+/* 	border: 1px solid silver; */
+/* 	border-collapse: collapse; */
+/* } */
+
+/* thead tr, tfoot tr { */
+/* 	color: white; */
+/* 	background-color: gray; */
+/* } */
+
+td {
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}
+td.number{
+	text-align: right;
+}
+
+dd,dt {
+	margin-left: 0;
+}
+
+dt {	
+	margin-top: 0.5em;
+	font-weight: bold;
+}
+
+dd#content{
+}
+
+
+tbody tr:nth-child(even) {
+	background-color: #FAFAFA;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #E6E6E6;
+}
+
+label {
+	cursor:pointer;
+	font-weight: bold;
+}
+
+input,select {
+	display: block;
+	font-size: 1.1em;
+	margin-bottom: 1em;
+	margin-top: 0.2em;	
+}
+
+input:focus, textarea:focus, select:focus {
+    background-color: #FFFFD6
+}
+
+input[type='checkbox'],input[type='radio'] {
+	display: inline;
+}
+
+.fout {
+	color: red;
+	font-weight: bold;
+}
+
+.zonderbolletjes {
+	list-style: none;
+	margin-bottom: 0.2em;
+	padding: 0;	
+}
+
+.zonderbolletjes li {
+	display: inline;
+	margin-right: 0.2em;
+}
+a.images{text-decoration:none;}
+
+table.zebra th {
+	background-color: #efefef;
+}
+
+table.zebra tr:nth-child(odd) { /* odd: oneven li elementen */
+	background-color: #c6d1dd;
+}
+
+table.zebra tr:nth-child(even) {
+	background-color: #efefef;
+}
+
+
+ul.zebra {
+	list-style: none;
+	padding: 0;
+}
+
+ul.zebra li {
+	padding-bottom: 0.1em;
+	padding-top: 0.1em;
+}
+
+ul.zebra li:nth-child(odd) { /* odd: oneven li elementen */
+	background-color: #c6d1dd;
+}
+
+ul.zebra li:nth-child(even) {
+	background-color: #efefef;
+}
+input[type=submit] {
+    width: 14em;
+}
+input[type=text] {
+    width: 25em;
+}
+input[type=password] {
+    width: 25em;    
+}
+input[type=text].numbers {
+    width: 6em;
+}
+span.star{
+	color: lightgrey;
+}
